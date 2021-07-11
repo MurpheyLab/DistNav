@@ -1,6 +1,8 @@
 import numpy as np
+np.seterr(divide='ignore', invalid='ignore')
+
 from numba import jit
-from distnav_utils import *
+from .distnav_utils import *
 
 
 class distnav:
@@ -26,12 +28,12 @@ class distnav:
     def reset_weights(self):
         self.weights = np.ones((self.num_agents, self.num_samples), dtype=np.float32)
 
-    def optimize(self, thred, max_iter):
+    def optimize(self, thred, max_iter, return_log):
         obj = 0.
-        it = -1
+        it = 0
         while True:
             obj = objective(self.table, self.weights, self.num_agents, self.num_samples)
-            if obj < thred or it > max_iter:
+            if obj < thred or it >= max_iter:
                 print('optimization terminated at iteration [{}] with objective: {}'.format(it, obj))
                 break
 
@@ -43,6 +45,12 @@ class distnav:
             it += 1
 
         ret_weights = self.weights.copy()
+        ret_weights_log = np.log(ret_weights)
+        ret_weights_log = np.nan_to_num(ret_weights_log, neginf=-np.min(self.origin_logpdf))
+
         self.reset_weights()
-        return ret_weights
+        if return_log:
+            return ret_weights, ret_weights_log
+        else:
+            return ret_weights
 
