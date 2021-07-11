@@ -16,5 +16,5 @@ We provide a Jupyter notebook tutorials for our algorithm. You can find them und
 
 ## Questions?
 
-Feel free to contact [Muchen](mailto: muchen@u.northwestern.edu) for any question :)
+Feel free to contact Muchen Sun via `muchen@u.northwestern.edu` for any question :)
 
