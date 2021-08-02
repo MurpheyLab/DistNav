@@ -2,6 +2,20 @@
 
 This repository contains related code for the RSS 2021 [paper](http://www.roboticsproceedings.org/rss17/p053.pdf) "Move Beyond Trajectories: Distribution Space Coupling for Crowd Navigation" by Muchen Sun, Francesca Baldini, Pete Trautman and Todd Murphey.
 
+If you use this toolbox, please cite it as below.
+
+```
+@INPROCEEDINGS{SunM-RSS-21, 
+    AUTHOR    = {Muchen Sun AND Francesca Baldini AND Peter Trautman AND Todd Murphey}, 
+    TITLE     = {{Move Beyond Trajectories: Distribution Space Coupling for Crowd Navigation}}, 
+    BOOKTITLE = {Proceedings of Robotics: Science and Systems}, 
+    YEAR      = {2021}, 
+    ADDRESS   = {Virtual}, 
+    MONTH     = {July}, 
+    DOI       = {10.15607/RSS.2021.XVII.053} 
+}
+```
+
 ## `DistNav` Toolbox
 
 You can install the crowd navigaton toolbox via `pip install distnav`. The second tutorial below contains examples for how to use this toolbox.
