@@ -1,23 +1,23 @@
-cff-version: "1.1.0"
+cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 authors: 
   -
     affiliation: "Northwestern University"
-    family-names: Sun
-    given-names: Muchen
+    family-names: "Sun"
+    given-names: "Muchen"
     orcid: "https://orcid.org/0000-0002-3704-6315"
   -
     affiliation: "California Institute of Technology"
-    family-names: Baldini
-    given-names: Francesca
+    family-names: "Baldini"
+    given-names: "Francesca"
   -
     affiliation: "Honda Research Institute (US)"
-    family-names: Trautman
-    given-names: Peter
+    family-names: "Trautman"
+    given-names: "Peter"
   -
     affiliation: "Northwestern University"
-    family-names: Murphey
-    given-names: Todd
+    family-names: "Murphey"
+    given-names: "Todd"
 title: "Move Beyond Trajectories: Distribution Space Coupling for Crowd Navigation"
 date-released: 2021-07-12
 doi: "10.15607/RSS.2021.XVII.053"
