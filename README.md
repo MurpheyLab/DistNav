@@ -21,10 +21,10 @@ If you use this toolbox, please cite it as below.
 You can play around with DistNav for a one-dimensional demonstration at below (click the image to visit the website).
 
 <p style="display: flex; align-items: flex-start;">
-  <a href="https://muchensun.github.io/demos/distnav_1d.html" style="margin-right: 10px;">
+  <a href="https://maxmsun.github.io/demos/distnav_1d.html" style="margin-right: 10px;">
     <img src="imgs/distnav_web_demo_1.png" alt="Web Demo 1" width="400"/>
   </a>
-  <a href="https://muchensun.github.io/demos/distnav_gmm.html">
+  <a href="https://maxmsun.github.io/demos/distnav_gmm.html">
     <img src="imgs/distnav_web_demo_2.png" alt="Web Demo 2" width="400"/>
   </a>
 </p>
